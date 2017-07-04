@@ -1,0 +1,11 @@
+server:
+  port: 80
+
+ribbon:
+  eureka:
+   enabled: false
+
+microcloud-provider-dept:
+  ribbon:
+    listOfServers: http://dept-8001.com:8001,http://dept-8002.com:8002,http://dept-8003.com:8003
+   
